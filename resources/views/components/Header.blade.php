@@ -1,4 +1,4 @@
-<header class="py-[60px]">
+<header class="py-[60px] lg:py-8 sm:py-6">
     <div class="container">
         <div class="flex items-center relative">
             <x-ui.logo />

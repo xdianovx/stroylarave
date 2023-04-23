@@ -1,11 +1,11 @@
-<a class="inline-flex items-center gap-4 text-[28px] leading-[100%] font-light group {{ $class }}"
+<a class="inline-flex items-center gap-4 text-[28px] leading-[100%] font-light group {{ $class }} xl:text-xl sm:text-base"
     href="{{ $link }}">
     <p
         class="relative before:w-0 before:absolute before:h-[1px] before:bg-black before:left-0 before:-bottom-1 group-hover:before:w-full">
         {{ $text }}
     </p>
 
-    <div class="w-8 h-8 flex items-center justify-center">
+    <div class="w-8 h-8 flex items-center justify-center sm:hidden">
         <div
             class="w-4 h-4 rounded-full ease-in-out duration-300 border border-black transition-all flex items-center justify-center group-hover:w-8 group-hover:h-8 group-hover:bg-black">
             <svg width="14" height="12" viewBox="0 0 14 12" class="stroke-white dark:stroke-black" fill="none">
