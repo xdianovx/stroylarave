@@ -30,6 +30,6 @@
 
     {{-- Блок с картами тут --}}
 
-    <x-partners-section class="mt-[356px] xl:mt-[220px] md:mt-40 sm:mt-16" />
+    <x-partners-section class="mt-[356px] xl:mt-[220px] md:mt-40 sm:mt-[160px]" />
 
 </x-layout>
