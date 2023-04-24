@@ -5,6 +5,7 @@
 @import "./components/burger.scss";
 @import "./components/title.scss";
 @import "./components/preloader.scss";
+@import "./components/news.scss";
 
 .menu {
     width: 90vw;
@@ -116,10 +117,10 @@ section.section-life-panel .object {
     }
 }
 
-@media screen and (max-width: 1520px){
+@media screen and (max-width: 1520px) {
     .grid-2 {
-            grid-template-columns: 1fr 720px;
-        }
+        grid-template-columns: 1fr 720px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
